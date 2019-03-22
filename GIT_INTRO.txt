@@ -1,0 +1,37 @@
+### Podstawowe polecenia git
+
+
+
+Po utworzeniu konta na github.com
+
+Zakładamy pierwsze repozytorium
+
+#### Tworzenie pustego repozytorium
+
+
+> git config --global user.name "Twoje imię i nazwsko"
+> git config --global user.email djkormo@gmail.com
+> git init
+
+# dodanie zdalnej gałęzi o nazwie origin 
+
+> git remote add origin  git://github.com/djkormo/test.git
+
+#### Dodanie wszystkich plików danedo katalogu do repozytorium kodu:
+
+> git add *
+
+#### Dodanie pliku z biezacego katalogu o nazwie nazwa-pliku do repozytorium kodu
+
+
+> git add nazwa-pliku
+
+
+#### Do zatwierdzania zmian w repozytorium git’a służy polecenie commit :
+
+>  git commit -m 'nazwa commita'
+
+
+#### Wysłanie zmian na serwer
+
+> git push twoja-nazwa master
