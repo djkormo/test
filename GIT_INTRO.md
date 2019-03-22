@@ -17,7 +17,9 @@ Zakładamy pierwsze repozytorium
 
 
 > git config --global user.name "Twoje imię i nazwsko"
-> git config --global user.email djkormo@gmail.com
+>
+> git config --global user.email email@poczta.com
+>
 > git init
 
 #### dodanie zdalnego repozytorium  o nazwie origin 
