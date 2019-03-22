@@ -1,3 +1,5 @@
+##### Na podstawie https://git-scm.com/book/pl/v1/Pierwsze-kroki
+
 ### Podstawowe polecenia git
 
 #### Uzyskanie pomocy (trzy sposoby)
