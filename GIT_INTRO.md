@@ -1,5 +1,10 @@
 ### Podstawowe polecenia git
 
+#### Uzyskanie pomocy (trzy sposoby)
+
+> git help <polecenie>
+> git <polecenie> --help
+> man git-<polecenie>
 
 
 Po utworzeniu konta na github.com
@@ -13,9 +18,15 @@ Zakładamy pierwsze repozytorium
 > git config --global user.email djkormo@gmail.com
 > git init
 
-# dodanie zdalnej gałęzi o nazwie origin 
+#### dodanie zdalnego repozytorium  o nazwie origin 
 
 > git remote add origin  https://github.com/djkormo/test.git
+
+
+#### Sprawdzenie konfiguracji zdalnego repozytorium 
+
+>git remote -v
+
 
 #### Dodanie wszystkich plików danedo katalogu do repozytorium kodu:
 
@@ -35,3 +46,25 @@ Zakładamy pierwsze repozytorium
 #### Wysłanie zmian na serwer
 
 > git push twoja-nazwa master
+
+#### Pobranie zmian z serwera
+
+> git pull twoja-nazwa
+
+#### historia zmian
+
+> git log
+
+#### Historia  ostarnich 2 zmian z porownaniem
+
+> git log -p -2
+
+
+#### Status spojnosci repozytorium
+
+> git status
+
+
+
+
+
